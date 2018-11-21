@@ -5,7 +5,7 @@ def speak_to_grandma(what_I_say, my_name)
   if what_I_say == what_I_say.upcase
     return "NO, NOT SINCE 1938!" 
   elsif what_I_say != what_I_say.upcase
-    return "HUH?! SPEAK UP" + my_name + "!"
+    return "HUH?! SPEAK UP " + my_name.upcase + "!"
   end
 end
 
